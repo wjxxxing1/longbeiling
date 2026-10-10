@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>听见龙背岭｜乡村文化记忆数字档案</title>
+<style>
+:root{--bg:#f5f3ed;--paper:#fbfaf6;--ink:#252722;--muted:#6e7068;--line:#d9d7cf;--dark:#30342d;--accent:#77735f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans SC","Microsoft YaHei",Arial,sans-serif;line-height:1.8}
+a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:auto;padding:0 28px}
+header{position:sticky;top:0;z-index:20;background:rgba(245,243,237,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.logo{font-family:Georgia,"Noto Serif SC",serif;font-size:21px;letter-spacing:3px}.navlinks{display:flex;gap:22px;font-size:13px;color:var(--muted)}.navlinks a:hover{color:var(--ink)}
+.hero{min-height:620px;display:grid;align-items:center;padding:80px 0}.hero-grid{display:grid;grid-template-columns:1.35fr .65fr;gap:70px;align-items:end}.eyebrow{font-size:11px;letter-spacing:4px;color:var(--muted)}h1{font-family:Georgia,"Noto Serif SC",serif;font-weight:500;font-size:clamp(54px,9vw,104px);letter-spacing:12px;line-height:1.15;margin:22px 0}.hero-desc{max-width:620px;color:var(--muted);font-size:16px}.quote{border-left:2px solid var(--accent);padding-left:20px;font-family:Georgia,"Noto Serif SC",serif;font-size:21px;line-height:1.8}.meta{font-size:11px;color:var(--muted);margin-top:35px;letter-spacing:1px}
+.section{padding:80px 0;border-top:1px solid var(--line)}.section-title{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:35px}.section-title h2{font-family:Georgia,"Noto Serif SC",serif;font-size:38px;font-weight:500;margin:0}.section-title span{font-size:12px;color:var(--muted)}
+.intro{display:grid;grid-template-columns:1fr 1fr;gap:55px}.lead{font-family:Georgia,"Noto Serif SC",serif;font-size:23px;line-height:1.8}.muted{color:var(--muted)}
+.archive-nav{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);margin-bottom:25px}.archive-nav button{border:0;border-right:1px solid var(--line);background:transparent;padding:18px 8px;font-size:14px;cursor:pointer;color:var(--muted)}.archive-nav button:last-child{border-right:0}.archive-nav button.active{background:var(--dark);color:#fff}
+.archive-panel{background:var(--paper);border:1px solid var(--line);padding:35px;min-height:300px}.archive-panel h3{font-family:Georgia,"Noto Serif SC",serif;font-size:30px;font-weight:500;margin:5px 0 15px}.label{font-size:10px;letter-spacing:3px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:28px}.archive-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:28px}.archive-card{background:var(--paper);border:1px solid var(--line);padding:25px;display:flex;flex-direction:column;min-height:260px}.archive-card .card-meta{font-size:10px;letter-spacing:2px;color:var(--muted)}.record-meta{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 12px;margin:14px 0 6px;padding:12px;background:#f1efe8;border:1px solid var(--line);font-size:11px;line-height:1.6}.record-meta span{display:block;color:var(--muted)}.record-meta b{display:block;font-weight:500;color:var(--ink)}.archive-card h3{font-family:Georgia,"Noto Serif SC",serif;font-size:23px;font-weight:500;margin:10px 0}.archive-card p{font-size:13px;color:var(--muted);margin:0 0 15px}.archive-card .source{font-size:11px;color:var(--muted);margin-top:auto;padding-top:12px;border-top:1px solid var(--line)}.archive-card .source a{display:inline-block;text-decoration:underline;text-underline-offset:3px;margin-top:5px}.archive-card .link-btn{display:inline-block;align-self:flex-start;margin-top:14px;border:1px solid var(--dark);padding:7px 12px;font-size:12px}.archive-card .link-btn:hover{background:var(--dark);color:#fff}.card{background:var(--paper);border:1px solid var(--line);padding:24px}.card h3{font-size:17px;margin:7px 0}.card p{font-size:13px;color:var(--muted);margin:0}.tag{display:inline-block;border:1px solid var(--line);padding:3px 8px;font-size:10px;color:var(--muted);margin:4px 4px 0 0}
+.place-list{display:grid;grid-template-columns:1fr 1fr;gap:15px}.place{background:var(--paper);border:1px solid var(--line);padding:25px;display:grid;grid-template-columns:70px 1fr;gap:20px}.place-no{font-family:Georgia,serif;font-size:25px;color:var(--muted)}.place h3{margin:0 0 5px;font-size:18px}.place p{margin:0;color:var(--muted);font-size:13px}
+.timeline{border-left:1px solid var(--line);padding-left:28px}.event{position:relative;margin:0 0 35px}.event:before{content:"";position:absolute;left:-34px;top:10px;width:9px;height:9px;border:1px solid var(--dark);background:var(--bg);border-radius:50%}.event h3{margin:0 0 5px;font-size:17px}.event p{margin:0;color:var(--muted);font-size:13px}
+.oldphoto{display:grid;grid-template-columns:1fr 1fr;gap:15px}.photo-placeholder{min-height:220px;border:1px dashed #bbb9af;background:#eeece5;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--muted);font-size:13px;padding:20px}
+.flow{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:1px solid var(--line)}.flow div{padding:22px 15px;border-right:1px solid var(--line);background:var(--paper)}.flow div:last-child{border:0}.flow b{display:block;margin-bottom:8px}.flow span{font-size:12px;color:var(--muted)}
+.note{font-size:12px;color:#77766f;background:#eceae2;padding:15px 18px;margin-top:22px;border-left:2px solid #8b8877}
+footer{padding:50px 0;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+
+.archive-tools{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin:18px 0 24px;padding:14px 16px;border:1px solid var(--line);background:var(--paper)}.archive-tools label{font-size:13px;color:var(--muted);white-space:nowrap}.archive-tools input{flex:1;min-width:180px;border:1px solid var(--line);background:#fffdf8;padding:11px 13px;font:inherit;font-size:14px;color:var(--ink);outline:none}.archive-tools input:focus{border-color:var(--accent)}.archive-tools span{font-size:12px;color:var(--muted);white-space:nowrap}.archive-card[hidden]{display:none!important}.archive-card h3{margin-top:16px}.archive-card .source{line-height:1.7}
+
+@media(max-width:760px){.wrap{padding:0 18px}.navlinks{display:none}.hero{min-height:540px;padding:55px 0}.hero-grid,.intro,.oldphoto{grid-template-columns:1fr;gap:30px}.cards,.place-list,.archive-cards{grid-template-columns:1fr}.flow{grid-template-columns:1fr}.flow div{border-right:0;border-bottom:1px solid var(--line)}.archive-nav{grid-template-columns:repeat(5,1fr)}.archive-nav button{font-size:12px;padding:13px 3px}.archive-panel{padding:24px}}
+
+/* 视觉增强：客家红、山林绿与纸本文献感 */
+:root{--bg:#f4f0e7;--paper:#fffdf7;--ink:#252b25;--muted:#6d7168;--line:#d8d2c4;--dark:#283c32;--accent:#b6533b;--sage:#dce5d8;--gold:#c49b58}
+::selection{background:#d7b47a;color:#1f2922}
+.navlinks a{transition:color .25s ease;position:relative}.navlinks a:after{content:"";position:absolute;left:0;bottom:-7px;width:0;height:2px;background:var(--accent);transition:width .25s ease}.navlinks a:hover:after{width:100%}
+.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 82% 32%,rgba(196,155,88,.19),transparent 32%),linear-gradient(135deg,#f4f0e7 0%,#ece7da 100%)}
+.hero:after{content:"龍";position:absolute;right:4%;top:2%;font-family:serif;font-size:clamp(190px,34vw,430px);line-height:1;color:rgba(40,60,50,.045);pointer-events:none;animation:floatMark 8s ease-in-out infinite}
+.hero-grid{position:relative;z-index:1}.eyebrow{color:var(--accent);font-weight:700}.hero h1{color:var(--dark);text-shadow:0 5px 24px rgba(40,60,50,.07)}.hero-desc strong{color:var(--accent)}.quote{border-color:var(--accent);color:var(--dark)}
+.section-title h2{color:var(--dark);position:relative}.section-title h2:before{content:"";display:inline-block;width:8px;height:27px;background:var(--accent);margin-right:14px;vertical-align:-3px;border-radius:2px}
+.archive-nav button{transition:background .25s,color .25s}.archive-nav button.active{background:var(--dark);box-shadow:inset 0 -4px var(--accent)}
+.archive-panel{background:linear-gradient(120deg,#fffdf7,#f2eee3);border-top:3px solid var(--accent);box-shadow:0 12px 30px rgba(40,50,40,.045)}
+.archive-card,.card,.place{transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease}.archive-card:hover,.card:hover,.place:hover{transform:translateY(-5px);box-shadow:0 14px 30px rgba(35,45,35,.09);border-color:#c7a878}.archive-card h3{color:var(--dark)}.archive-card .card-meta{color:var(--accent)}.archive-card .link-btn{border-color:var(--accent);color:var(--dark);transition:all .2s}.archive-card .link-btn:hover{background:var(--accent);border-color:var(--accent);color:white}
+.tag{border-color:#d4c7b0;background:#f6f0e5;color:#715a3e;border-radius:3px}.record-meta{background:#f1eee5;border-color:#e0d8c9}.note{background:#e8ede4;border-left-color:var(--accent);color:#4d594e}
+.photo-gallery{display:grid;grid-template-columns:1.15fr .85fr;gap:18px;margin:25px 0 0}.photo-tile{position:relative;overflow:hidden;min-height:280px;border-radius:4px;background:#d8d8c8}.photo-tile img{width:100%;height:100%;min-height:280px;object-fit:cover;display:block;filter:saturate(.82);transition:transform .8s ease,filter .5s ease}.photo-tile:hover img{transform:scale(1.045);filter:saturate(1)}.photo-tile:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(17,31,23,.76));pointer-events:none}.photo-caption{position:absolute;z-index:1;bottom:17px;left:20px;right:20px;color:#fff}.photo-caption small{display:block;letter-spacing:2px;font-size:10px;color:#f2d7a7}.photo-caption strong{font-family:Georgia,"Noto Serif SC",serif;font-size:22px;font-weight:500}.photo-caption span{display:block;font-size:12px;opacity:.85}.resource-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.resource-card{padding:24px;background:var(--paper);border:1px solid var(--line);border-top:3px solid var(--gold);transition:transform .25s,box-shadow .25s}.resource-card:hover{transform:translateY(-4px);box-shadow:0 12px 26px #273a2b14}.resource-card .resource-icon{font-size:24px}.resource-card h3{margin:9px 0 6px;color:var(--dark);font-size:17px}.resource-card p{margin:0 0 14px;color:var(--muted);font-size:13px}.resource-card a{color:var(--accent);font-size:12px;font-weight:700;border-bottom:1px solid #d7b5a6;padding-bottom:3px}.pill-link{display:inline-flex;align-items:center;gap:7px;padding:10px 15px;border:1px solid var(--dark);background:var(--dark);color:white!important;font-size:12px;transition:all .2s}.pill-link:hover{background:var(--accent);border-color:var(--accent)}
+#sources{background:linear-gradient(135deg,#e8ede4,#f5f0e6)}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+@keyframes floatMark{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-14px) rotate(1deg)}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+@media(max-width:760px){.photo-gallery,.resource-grid{grid-template-columns:1fr}.photo-tile,.photo-tile img{min-height:230px}.hero:after{right:-6%;top:8%;font-size:220px}.section-title h2{font-size:31px}}
+
+
+/* 本轮完善：人物案例、声音试听入口、地图点位和旧影图片 */
+.profile-card{padding:0!important;overflow:hidden}.profile-card img{width:100%;height:210px;object-fit:cover;display:block;transition:transform .5s}.profile-card:hover img{transform:scale(1.035)}.profile-card .profile-body{padding:22px}.profile-card .profile-kicker{font-size:10px;letter-spacing:2px;color:var(--accent);font-weight:700}.profile-card h3{font-family:Georgia,"Noto Serif SC",serif;font-size:22px;color:var(--dark);margin:7px 0}.profile-card .case{font-size:13px;color:var(--muted);margin:0 0 12px}.inline-link{display:inline-block;margin-top:10px;color:var(--accent);font-size:12px;font-weight:700;text-decoration:underline;text-underline-offset:4px}.sound-feature{display:grid;grid-template-columns:1.05fr .95fr;gap:22px;margin-top:24px}.sound-panel{padding:26px;background:var(--dark);color:#f8f3e7;position:relative;overflow:hidden}.sound-panel:after{content:'♫';position:absolute;right:20px;top:-30px;font-size:150px;color:#ffffff0c;font-family:serif}.sound-panel h3{font-family:Georgia,"Noto Serif SC",serif;font-size:25px;margin:5px 0 10px}.sound-panel p{font-size:13px;color:#d9ded5;max-width:530px}.waveform{height:48px;display:flex;align-items:center;gap:4px;margin:20px 0}.waveform i{display:block;width:4px;border-radius:3px;background:#d8b16c;opacity:.9}.sound-links{display:grid;gap:12px}.sound-link{display:flex;gap:15px;align-items:center;padding:17px;background:var(--paper);border:1px solid var(--line)}.sound-icon{width:42px;height:42px;flex:none;border-radius:50%;display:grid;place-items:center;background:#e8ede4;color:var(--dark);font-size:18px}.sound-link b{display:block;color:var(--dark);font-size:14px}.sound-link small{display:block;color:var(--muted);font-size:11px}.map-layout{display:grid;grid-template-columns:1.05fr .95fr;gap:20px;align-items:stretch}.map-frame{width:100%;height:430px;border:0;background:#e8e5db}.place{padding:0;overflow:hidden;grid-template-columns:120px 1fr}.place-thumb{width:120px;height:100%;min-height:220px;object-fit:cover}.place-copy{padding:20px 20px 20px 0}.place h3{color:var(--dark)}.place-info{display:flex;gap:6px;flex-wrap:wrap;margin:8px 0}.place-info span{font-size:10px;padding:3px 7px;background:#e9eee6;color:#475a4a}.place-actions{display:flex;gap:12px;flex-wrap:wrap}.place-actions a{font-size:11px;color:var(--accent);text-decoration:underline;text-underline-offset:3px}.oldphoto .old-tile{display:block;position:relative;overflow:hidden;background:#e7e1d2;min-height:280px}.oldphoto .old-tile img{width:100%;height:280px;object-fit:cover;display:block;filter:sepia(.12);transition:transform .6s}.oldphoto .old-tile:hover img{transform:scale(1.04)}.oldphoto .old-label{padding:13px 16px;background:var(--paper);font-size:12px;color:var(--muted);border:1px solid var(--line)}.oldphoto .old-label b{display:block;color:var(--dark);font-size:15px;margin-bottom:4px}.source-warning{font-size:11px;color:var(--muted);margin-top:14px}.card .source-mini{font-size:11px;color:var(--muted);margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}
+@media(max-width:760px){.sound-feature,.map-layout{grid-template-columns:1fr}.place{grid-template-columns:94px 1fr}.place-thumb{width:94px;min-height:100%;height:100%;object-fit:cover}.place-copy{padding:14px 12px 14px 0}.map-frame{height:330px}.oldphoto .old-tile img{height:230px}}
+
+
+/* Final presentation polish: warm paper, Hakka red, forest green, readable contrast */
+.map-intro{font-size:1.02rem;line-height:1.9;color:#55594d}
+.map-layout-final{display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,1fr);gap:24px;align-items:start}
+.map-art{overflow:hidden;border:1px solid #d8d7c8;border-radius:22px;background:#f5f2e7;box-shadow:0 12px 34px rgba(45,52,39,.08)}
+.map-art-head{padding:22px 24px 12px;display:flex;flex-direction:column;gap:5px}
+.map-art-head span{font-size:.72rem;letter-spacing:.16em;color:#a14e38;font-weight:800}
+.map-art-head strong{font-size:clamp(1.1rem,2vw,1.5rem);line-height:1.45;color:#2d392d}
+.memory-map-svg{display:block;width:100%;height:auto;padding:6px 12px}
+.map-art-foot{padding:12px 20px 18px;font-size:.78rem;color:#666b5d;letter-spacing:.04em}
+.place-list-final{display:grid;grid-template-columns:1fr;gap:14px}
+.place-final{display:grid;grid-template-columns:72px minmax(0,1fr);gap:15px;padding:18px;background:#fffdf8;border:1px solid #e0ded2;border-radius:16px;box-shadow:0 5px 18px rgba(42,46,36,.04);transition:transform .22s ease,box-shadow .22s ease}
+.place-final:hover{transform:translateY(-3px);box-shadow:0 12px 24px rgba(42,46,36,.09)}
+.place-symbol{height:72px;width:72px;border-radius:16px;display:flex;flex-direction:column;align-items:center;justify-content:center;color:white;line-height:1.2;gap:4px}
+.place-symbol span{font-size:.65rem;letter-spacing:.1em;opacity:.85}
+.place-symbol b{font-size:1.5rem}
+.symbol-red{background:#a94e39}.symbol-green{background:#45684d}.symbol-purple{background:#696583}.symbol-gold{background:#b28a42}
+.place-final .place-copy h3{font-size:1.15rem;color:#29382d;margin:0 0 5px;line-height:1.5}
+.place-final .place-copy p{font-size:.91rem;color:#606256;line-height:1.75;margin:0 0 10px}
+.place-final .place-info{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 9px}
+.place-final .place-info span{font-size:.72rem;border-radius:999px;padding:3px 9px;background:#edf0e7;color:#47604a}
+.place-final .place-info span+span{background:#f5ecdb;color:#876735}
+.place-final .place-actions{display:flex;flex-wrap:wrap;gap:8px}
+.place-final .place-actions a{font-size:.82rem;font-weight:700;color:#9a4935;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:850px){.map-layout-final{grid-template-columns:1fr}.memory-map-svg{max-height:none}.place-list-final{grid-template-columns:1fr}}
+@media(max-width:480px){.place-final{grid-template-columns:56px minmax(0,1fr);gap:11px;padding:13px}.place-symbol{width:56px;height:62px}.place-symbol b{font-size:1.2rem}.map-art-head{padding:17px 16px 8px}.map-art-foot{padding:10px 16px 14px}}
+@media(prefers-reduced-motion:reduce){.place-final{transition:none}.place-final:hover{transform:none}}
+
+
+.profile-source-tile{display:flex;min-height:115px;align-items:center;justify-content:center;flex-direction:column;gap:5px;background:linear-gradient(135deg,#e8e4d8,#d9e1d5);color:#304438;border:1px solid #d8d2c4;text-align:center;font-size:13px}.profile-source-tile .profile-tile-mark{font-family:Georgia,serif;font-size:28px;color:#b6533b}.profile-source-tile small{font-size:11px;color:#6d7168;text-decoration:underline;text-underline-offset:3px}.old-photo-placeholder{min-height:280px;height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;gap:8px;background:linear-gradient(145deg,#e7e2d5,#d5ddd0);color:#304438}.old-photo-placeholder span{font-family:Georgia,"Noto Serif SC",serif;font-size:25px}.old-photo-placeholder small{font-size:11px;color:#6d7168;letter-spacing:1px}
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><div class="logo">听见龙背岭</div><nav class="navlinks"><a href="#about">项目</a><a href="#archive">档案</a><a href="#samples">档案卡</a><a href="#places">地点</a><a href="#stories">故事</a><a href="#old">旧影</a><a href="#sources">资料来源</a></nav></div></header>
+
+<main>
+<section class="hero"><div class="wrap hero-grid">
+<div>
+<div class="eyebrow">LONG BEI LING · DIGITAL MEMORY ARCHIVE</div>
+<h1>听见<br>龙背岭</h1>
+<p class="hero-desc">龙背岭乡村文化记忆数字化保护与传播项目。我们试着把散落在建筑、人物、乡音、故事与旧照片里的记忆重新连接起来。</p>
+<div class="meta">东莞市塘厦镇 · 龙背岭村</div><div class="hero-actions" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:24px"><a class="pill-link" href="#samples">进入数字档案 ↓</a><a class="pill-link" href="#sources" style="background:transparent;color:var(--dark)!important">查阅公开资料 ↗</a></div>
+</div>
+<div class="quote">记录正在消失的声音，<br>保存正在远去的记忆。</div>
+</div></section>
+
+<section id="about" class="section"><div class="wrap">
+<div class="section-title"><h2>为什么记录</h2><span>01 / PROJECT</span></div>
+<div class="intro"><div class="lead">一座村庄真正珍贵的，不只是留下来的建筑，也包括那些只有人记得、只有人会讲的故事。</div>
+<div class="muted">龙背岭拥有客家文化、侨乡文化、历史建筑、非遗与丰富的村落记忆。现有资料已经记录了不少文化资源，但不同资料之间仍较为分散。项目希望以“数字档案”的方式，把人、声、地、事、旧影连接起来，让文化保护不止停留在资料保存，也能够被年轻人重新看见、听见和理解。</div></div>
+<div class="note">项目定位：文化记忆数字化保护＋年轻化传播。AI主要用于资料整理、文字转录、老照片辅助修复等幕后工作，不替代真实的文化记录。</div>
+<div class="photo-gallery" aria-label="龙背岭公开报道图片"><a class="photo-tile" href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener"><img loading="lazy" src="https://nyncj.dg.gov.cn/img/0/454/454411/4088052.png" alt="龙背岭传统村落公开报道配图"><div class="photo-caption"><small>VILLAGE · 传统村落</small><strong>从建筑开始，认识一座村庄</strong><span>图片来源：东莞市农业农村局转载报道 · 点击查看原文</span></div></a><a class="photo-tile" href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener"><img loading="lazy" src="https://nyncj.dg.gov.cn/img/0/454/454413/4088052.png" alt="龙背岭叶氏宗祠及历史建筑公开报道配图"><div class="photo-caption"><small>ARCHITECTURE · 历史建筑</small><strong>老建筑里，藏着地方记忆</strong><span>公开报道配图 · 点击查看来源</span></div></a></div>
+</div></section>
+
+<section id="archive" class="section"><div class="wrap">
+<div class="section-title"><h2>五类记忆档案</h2><span>02 / ARCHIVE</span></div>
+<div class="archive-nav">
+<button class="active" data-key="人">人</button><button data-key="声">声</button><button data-key="地">地</button><button data-key="事">事</button><button data-key="旧影">旧影</button>
+</div>
+<div class="archive-panel"><div class="label" id="a-label">ARCHIVE 01 / PEOPLE</div><h3 id="a-title">人：记忆的讲述者</h3><p class="muted" id="a-desc">老人、村民、文化传承人、返乡青年以及与龙背岭有家族联系的人，共同构成村庄记忆的“人”。</p><div id="a-tags"></div></div>
+</div></section>
+
+<section id="samples" class="section"><div class="wrap">
+<div class="section-title"><h2>数字档案库</h2><span>03 / ARCHIVE COLLECTION</span></div>
+<p class="muted">以公开资料为基础建立第一批档案样本。可按关键词检索；所有内容均标注来源与当前状态。网络参考素材不等于项目组原创采集。</p><div class="archive-tools"><label for="archiveSearch">检索档案</label><input id="archiveSearch" type="search" placeholder="搜索山歌、宗祠、麒麟、旧影……" aria-label="搜索数字档案"><span id="archiveCount">当前 8 条档案</span></div>
+<div class="archive-cards">
+<div class="archive-card"><div class="card-meta">ARCHIVE 001 / SOUND · 公开资料可核实</div><div class="record-meta"><div><span>档案编号</span><b>TBL-SND-001</b></div><div><span>类别</span><b>声音／传统音乐</b></div><div><span>资料年代</span><b>2021年录制工作；2024年报道</b></div><div><span>来源类型</span><b>政府/媒体公开报道</b></div><div><span>采集状态</span><b>公开资料已整理；本地原始音频待取得</b></div></div><h3>塘厦客家山歌</h3><p>客家山歌是龙背岭地方文化记忆的重要组成部分。东莞文明网2024年报道记载：2021年，廖小连联系镇文广中心工作人员，到龙背岭社区录制叶粦香等传承人的12首塘厦客家山歌演唱视频，用于抢救性保护。</p><p>试听入口暂用网络公开的客家山歌视频，仅作曲艺形式参考，<strong>不是龙背岭本地传承人的原始录音</strong>。后续如取得本地音源，应补充演唱者、录制时间地点及授权信息。</p><div class="source">资料来源：<a href="https://dg.wenming.cn/town/202406/t20240612_8564995.shtml" target="_blank" rel="noopener">东莞文明网：塘厦推动非遗跨界融合发展（2024）</a>；<a href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener">东莞市农业农村局：龙背岭村传承客家文化</a></div><a class="link-btn" href="https://www.bilibili.com/video/BV1Sx411C7Jt/" target="_blank" rel="noopener">打开客家山歌参考试听 ↗</a></div>
+<div class="archive-card"><div class="card-meta">ARCHIVE 002 / PEOPLE · 公开资料可核实</div><div class="record-meta"><div><span>档案编号</span><b>TBL-PPL-002</b></div><div><span>类别</span><b>人物／非遗传承</b></div><div><span>资料年代</span><b>2002年起学习；2019年拜师（据报道）</b></div><div><span>来源类型</span><b>媒体人物报道</b></div><div><span>采集状态</span><b>公开资料已整理；本人采访待开展</b></div></div><h3>廖小连｜客家山歌传承人</h3><p>东莞文明网报道介绍，廖小连于2002年开始学习梅州兴宁客家山歌演唱技巧，2019年师从塘厦第二代客家山歌传承人郭妙玲学习塘厦客家山歌唱腔和曲调。此后，她到龙背岭采风、收集整理山歌词资料，并推动山歌进校园；其开设的“小梅花”塘厦客家山歌班已培养41名小传承人。</p><p>人物卡现阶段依据公开报道整理，不代表已完成本人采访。后续可补充本人授权照片、口述、代表曲目及传承经历核对。</p><div class="source">资料来源：<a href="https://dg.wenming.cn/town/202406/t20240612_8564995.shtml" target="_blank" rel="noopener">东莞文明网：塘厦推动非遗跨界融合发展（2024）</a></div><a class="link-btn" href="https://dg.wenming.cn/town/202406/t20240612_8564995.shtml" target="_blank" rel="noopener">查看人物与传承资料 ↗</a></div>
+<div class="archive-card"><div class="card-meta">ARCHIVE 003 / PLACE · 公开资料可核实</div><div class="record-meta"><div><span>档案编号</span><b>TBL-PLC-003</b></div><div><span>类别</span><b>地点／公共文化空间</b></div><div><span>资料年代</span><b>2021—2024年公开报道</b></div><div><span>来源类型</span><b>政府/媒体公开报道</b></div><div><span>采集状态</span><b>地点线索已记录；现状与开放信息待核实</b></div></div><h3>龙背岭村史馆</h3><p>公开报道记载，龙背岭广场大榕树旁设有村史馆，馆内介绍客家山歌及第三代传承人廖小连。大榕树下的日常休闲、唱山歌场景，也让村史馆与村落公共生活形成联系，可作为“人—声—地”记忆地图的一个节点。</p><p>本卡只依据公开报道描述其位置与展陈内容；馆内现状、开放时间、展品清单和可拍摄范围仍需后续实地确认。</p><div class="source">资料来源：<a href="https://dg.wenming.cn/town/202406/t20240612_8564995.shtml" target="_blank" rel="noopener">东莞文明网：塘厦推动非遗跨界融合发展（2024）</a>；<a href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener">东莞市农业农村局：龙背岭村传承客家文化</a></div><a class="link-btn" href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener">查看龙背岭村落资料 ↗</a></div>
+<div class="archive-card"><div class="card-meta">ARCHIVE 004 / CUSTOM · 公开报道可核实</div><div class="record-meta"><div><span>档案编号</span><b>TBL-CUS-004</b></div><div><span>类别</span><b>习俗／宗族记忆</b></div><div><span>资料年代</span><b>2020、2021年公开报道</b></div><div><span>来源类型</span><b>地方媒体现场报道</b></div><div><span>采集状态</span><b>公开报道已整理；仪式口述与影像待补充</b></div></div><h3>祠堂里的“太公分猪肉”</h3><p>这项习俗有明确的龙背岭地方报道依据。东莞广播电视台2021年报道介绍，龙背岭叶氏社区在清明、重阳举行祭祖活动；重阳祭拜后，村中会把客家焖猪肉按各家人口分发。报道将其描述为延续多年的客家习俗，承载着祭祖、亲情与村庄共同记忆。</p><p>可继续整理的档案内容包括：重阳仪式流程、焖猪肉制作与分发方式、参与者口述及历史影像。具体年份和仪式细节应以来源或后续采访为准。</p><div class="source">资料来源：<a href="https://webzdg.sun0769.com/web/news/content/228124?share=1" target="_blank" rel="noopener">东莞广播电视台：太公分猪肉！东莞这个社区有个重阳习俗已延续几百年（2021）</a>；<a href="https://static.nfnews.com/content/202007/18/c3782329.html" target="_blank" rel="noopener">南方+：一场塘厦龙背岭宗祠里的“家宴”（2020）</a></div><a class="link-btn" href="https://webzdg.sun0769.com/web/news/content/228124?share=1" target="_blank" rel="noopener">阅读习俗报道与现场图片 ↗</a></div>
+<div class="archive-card"><div class="card-meta">ARCHIVE 005 / OLD PHOTO · 公开案例可核实</div><div class="record-meta"><div><span>档案编号</span><b>TBL-OLD-005</b></div><div><span>类别</span><b>侨乡／家族旧影</b></div><div><span>资料年代</span><b>2015年寻根案例报道</b></div><div><span>来源类型</span><b>广东省侨务部门公开报道</b></div><div><span>采集状态</span><b>案例线索已记录；原始照片与授权未取得</b></div></div><h3>侨乡寻根与家族旧影</h3><p>广东省侨办2015年公开报道记录了一起具体案例：祖籍塘厦龙背岭的牙买加华人冯如祖安、冯如理力度姐妹回村寻根。报道提到，她们的母亲是叶氏后代，家族祖辈于1890年移民牙买加；姐妹带来了叶氏故居早期资料和照片，并在当地干部陪同下寻找相关地点、听村中老人讲述家族往事。</p><p>这是一则有公开来源的寻根案例，不代表已经收集到可直接展示的原始照片。后续如纳入家族旧影，应记录照片来源、人物与年代信息，并取得提供者授权。</p><div class="source">资料来源：<a href="https://www.qb.gd.gov.cn/xgbd/content/post_58088.html" target="_blank" rel="noopener">广东省人民政府侨务办公室：牙买加华人到东莞塘厦镇寻根（2015）</a>；<a href="https://www.qb.gd.gov.cn/jrqx/content/post_535200.html" target="_blank" rel="noopener">广东省侨办：行走东莞古村，追寻沧桑往事</a></div><a class="link-btn" href="https://www.qb.gd.gov.cn/xgbd/content/post_58088.html" target="_blank" rel="noopener">查看寻根案例资料 ↗</a></div>
+<div class="archive-card" data-archive="碉楼 叶三贵 叶俊万 历史建筑 文物 侨乡"><div class="card-meta">ARCHIVE 006 / PLACE · 公开资料整理</div><div class="record-meta"><div><span>档案编号</span><b>TBL-PLC-006</b></div><div><span>类别</span><b>地点／历史建筑</b></div><div><span>资料年代</span><b>民国时期建筑；2012年列入不可移动文物（据公开报道）</b></div><div><span>来源类型</span><b>政府部门转载报道</b></div><div><span>采集状态</span><b>公开文字资料已整理；现场影像待补充</b></div></div><h3>叶三贵碉楼与叶俊万碉楼</h3><p>公开报道记载，叶三贵碉楼与叶俊万碉楼建于民国时期，并于2012年被列为东莞市不可移动文物。相关介绍也将它们放在龙背岭客家村落与侨乡文化的背景下理解。碉楼不仅是建筑实体，也为了解村落家庭、迁徙经历与地方发展提供了线索。</p><p><strong>档案价值：</strong>通过建筑外观、结构细节、历史照片与公开文献建立建筑档案，并与村落空间和侨乡记忆关联。</p><p><strong>后续补充：</strong>现场照片、建筑现状、准确位置、建造者资料及拍摄许可。</p><div class="source">资料来源：<a href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener">东莞市农业农村局：龙背岭村传承客家文化</a>；<a href="https://www.qb.gd.gov.cn/jrqx/content/post_535200.html" target="_blank" rel="noopener">广东省侨务办公室：行走东莞古村</a></div></div>
+<div class="archive-card" data-archive="牛眠埔 洪仁玕 永培书室 张彩廷纪念碑 福音堂 鼎和堂 历史遗迹"><div class="card-meta">ARCHIVE 007 / HISTORY · 公开资料整理</div><div class="record-meta"><div><span>档案编号</span><b>TBL-HIS-007</b></div><div><span>类别</span><b>历史事件／遗迹</b></div><div><span>资料年代</span><b>19世纪历史线索；以公开史料为准</b></div><div><span>来源类型</span><b>地方史及侨务部门文章</b></div><div><span>采集状态</span><b>公开资料已整理；遗迹现状待核实</b></div></div><h3>牛眠埔洪仁玕避难遗迹</h3><p>广东省侨务办公室的古村介绍援引《塘厦镇志》记载：洪仁玕在前往广西途中未能赶上太平军，后来曾在东莞牛眠埔一带停留，并在永培书屋担任塾师。公开资料列出的相关遗迹包括永培书室遗址、张彩廷纪念碑、福音堂、鼎和堂及张声和夫妇墓等。</p><p><strong>档案价值：</strong>把地方史叙述与具体遗迹联系起来，形成可查阅的历史线索，而不是只用一段文字概括村庄历史。</p><p><strong>后续补充：</strong>逐项核对规划中的名称、位置、现状与保护信息；关联可公开使用的历史文献。</p><div class="source">资料来源：<a href="https://www.qb.gd.gov.cn/jrqx/content/post_535200.html" target="_blank" rel="noopener">广东省人民政府侨务办公室：行走东莞古村，追寻沧桑往事</a>；<a href="https://www.dg.gov.cn/attachment/0/373/373725/4462383.pdf" target="_blank" rel="noopener">龙背岭村传统村落保护发展规划相关文件</a></div></div>
+<div class="archive-card" data-archive="传统村落 巷道 七横六纵 古井 风水塘 民居 空间记忆"><div class="card-meta">ARCHIVE 008 / PLACE · 规划资料整理</div><div class="record-meta"><div><span>档案编号</span><b>TBL-PLC-008</b></div><div><span>类别</span><b>地点／村落空间</b></div><div><span>资料年代</span><b>传统村落保护规划</b></div><div><span>来源类型</span><b>政府公开规划文件</b></div><div><span>采集状态</span><b>规划线索已记录；具体点位待现场确认</b></div></div><h3>老巷道、古井与村落日常空间</h3><p>龙背岭传统村落保护相关公开资料记录了旧村巷道、典型民居、古井及风水塘等传统风貌与历史环境要素。它们共同构成村落的生活空间，也为理解村民过去的出行、取水、交往和居住方式提供了线索。</p><p><strong>档案价值：</strong>从建筑以外的日常空间入手，让数字档案不仅记录“重要古迹”，也关注普通生活环境中的文化记忆。</p><p><strong>后续补充：</strong>核实巷道与环境要素的具体位置，记录现状照片、历史变化和居民对空间的称呼。</p><div class="source">资料来源：<a href="https://www.dg.gov.cn/attachment/0/373/373725/4462383.pdf" target="_blank" rel="noopener">龙背岭村传统村落保护发展规划相关文件</a>；<a href="https://www.qb.gd.gov.cn/jrqx/content/post_535200.html" target="_blank" rel="noopener">广东省侨务办公室：行走东莞古村</a></div></div>
+<div class="note">说明：以上档案卡是基于公开资料整理的网页档案样本，不等于已完成实地采集、本人采访或原始资料授权。卡片中的外部试听仅作形式参考；侨乡旧影也只是公开案例线索，不代表已取得可展示的原始照片。</div>
+</div></section>
+
+<section class="section"><div class="wrap">
+<div class="section-title"><h2>人物档案</h2><span>03 / PEOPLE · 真实案例</span></div>
+<p class="muted" style="max-width:780px;margin-top:-16px">人物档案优先收录公开报道中有明确出处的人物与事件；尚未完成本人采访的内容不冒充口述记录，后续可在取得同意后补充声音、照片和个人叙述。</p>
+<div class="cards">
+<article class="card profile-card"><a class="profile-source-tile" href="https://dg.wenming.cn/town/202406/t20240612_8564995.shtml" target="_blank" rel="noopener" aria-label="查看公开资料来源"><span class="profile-tile-mark">档</span><span>公开资料线索</span><small>点击查看来源 ↗</small></a><div class="profile-body"><span class="profile-kicker">非遗传承 · PUBLIC CASE</span><h3>廖小连｜客家山歌传承人</h3><p class="case">公开报道提及，龙背岭设立客家山歌传承基地，开展山歌比赛、进校园等活动，并培育传承人；相关报道将廖小连介绍为第三代传承人。</p><span class="tag">客家山歌</span><span class="tag">非遗传承</span><div class="source-mini">图片为龙背岭客家文化报道配图，不是人物肖像。人物信息来源：东莞文明网相关报道。</div><a class="inline-link" href="https://dg.wenming.cn/town/202406/t20240612_8564995.shtml" target="_blank" rel="noopener">阅读传承案例 ↗</a></div></article>
+<article class="card profile-card"><a class="profile-source-tile" href="https://www.gdql.org.cn/dsdt/content/post_1107143.html" target="_blank" rel="noopener" aria-label="查看公开资料来源"><span class="profile-tile-mark">档</span><span>公开资料线索</span><small>点击查看来源 ↗</small></a><div class="profile-body"><span class="profile-kicker">侨乡寻根 · 2015</span><h3>冯氏姐妹｜从牙买加回乡寻根</h3><p class="case">广东省侨联公开报道记载，2015年，祖籍龙背岭的第三代华人冯如祖安、冯如理力度等人，在当地侨联协助下回村寻根，带来早年叶氏故居资料与照片，并听村中老人讲述家族往事。</p><span class="tag">家族记忆</span><span class="tag">海外侨胞</span><div class="source-mini">此案例来自公开新闻，不代表项目已联系当事人或取得其家族照片授权。</div><a class="inline-link" href="https://www.gdql.org.cn/dsdt/content/post_1107143.html" target="_blank" rel="noopener">阅读寻根报道 ↗</a></div></article>
+<article class="card profile-card"><a class="profile-source-tile" href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener" aria-label="查看公开资料来源"><span class="profile-tile-mark">档</span><span>公开资料线索</span><small>点击查看来源 ↗</small></a><div class="profile-body"><span class="profile-kicker">村庄记忆 · 待访谈</span><h3>村中长者｜口述史采集对象</h3><p class="case">关于村名由来、旧地名、祠堂祭祖、客家话和村落生活的记忆，适合通过半结构式访谈记录。当前页面仅列出拟采集主题，尚无项目团队完成的真实访谈。</p><span class="tag">口述史</span><span class="tag">待授权采集</span><div class="source-mini">后续建议记录：受访者自愿授权、访谈日期、地点、原声文件、文字校对与公开范围。</div><a class="inline-link" href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener">查看村落公开背景 ↗</a></div></article>
+</div></div></section>
+
+<section class="section"><div class="wrap">
+<div class="section-title"><h2>声音档案</h2><span>04 / SOUND · 听见地方</span></div>
+<p class="muted" style="max-width:780px;margin-top:-16px">把声音、影像、文字和地点放在同一张档案卡里。当前以公开报道和可查找的影音入口作示范，项目原创录音仍需实地采集并取得授权。</p>
+<div class="sound-feature"><div class="sound-panel"><span class="profile-kicker" style="color:#e2bd79">SOUND FILE 001</span><h3>客家山歌｜从声音认识龙背岭</h3><p>龙背岭客家山歌有公开报道记录，地方曾开展传承基地建设、山歌比赛及进校园活动。正式档案可保存原声、歌词、普通话释义、演唱者授权和录制地点。</p><div class="waveform" aria-label="声音波形装饰"><i style="height:12px"></i><i style="height:24px"></i><i style="height:17px"></i><i style="height:35px"></i><i style="height:27px"></i><i style="height:42px"></i><i style="height:21px"></i><i style="height:30px"></i><i style="height:14px"></i><i style="height:39px"></i><i style="height:46px"></i><i style="height:25px"></i><i style="height:18px"></i><i style="height:33px"></i><i style="height:23px"></i><i style="height:40px"></i><i style="height:16px"></i><i style="height:28px"></i><i style="height:43px"></i><i style="height:20px"></i><i style="height:34px"></i><i style="height:14px"></i><i style="height:25px"></i><i style="height:38px"></i><i style="height:18px"></i><i style="height:30px"></i><i style="height:42px"></i><i style="height:22px"></i><i style="height:35px"></i><i style="height:16px"></i><i style="height:27px"></i><i style="height:39px"></i><i style="height:19px"></i><i style="height:31px"></i><i style="height:12px"></i></div><a class="pill-link" href="https://www.bilibili.com/search?keyword=%E9%BE%99%E8%83%8C%E5%B2%AD%20%E5%AE%A2%E5%AE%B6%E5%B1%B1%E6%AD%8C" target="_blank" rel="noopener">查找相关影音 ↗</a> <a class="pill-link" style="background:transparent;border-color:#d8b16c" href="https://dg.wenming.cn/town/202406/t20240612_8564995.shtml" target="_blank" rel="noopener">阅读传承报道 ↗</a></div>
+<div class="sound-links"><a class="sound-link" href="https://www.bilibili.com/search?keyword=%E5%A1%98%E5%8E%A6%20%E5%AE%A2%E5%AE%B6%E5%B1%B1%E6%AD%8C" target="_blank" rel="noopener"><span class="sound-icon">▶</span><span><b>影音入口｜塘厦客家山歌</b><small>打开 B 站搜索结果，逐条核对上传者、地点与内容后再引用</small></span></a><a class="sound-link" href="https://www.douyin.com/search/%E9%BE%99%E8%83%8C%E5%B2%AD%E5%AE%A2%E5%AE%B6%E5%B1%B1%E6%AD%8C" target="_blank" rel="noopener"><span class="sound-icon">▷</span><span><b>短视频入口｜龙背岭客家山歌</b><small>打开抖音搜索结果；第三方视频并非项目原创录音</small></span></a><a class="sound-link" href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener"><span class="sound-icon">文</span><span><b>文字档案｜山歌传承与麒麟舞</b><small>东莞市农业农村局转载东莞阳光网报道</small></span></a></div></div>
+<div class="cards"><article class="card"><span class="label">SOUND 002</span><h3>客家话与地方称呼</h3><p>建议采集村名、地名、亲属称谓、日常俗语的发音，附普通话释义和使用场景。当前为采集方案，不是已录音样本。</p><span class="tag">方言</span><span class="tag">计划采集</span></article><article class="card"><span class="label">SOUND 003</span><h3>民间童谣与生活声</h3><p>可记录童谣、节庆锣鼓、麒麟舞排练等声音；涉及未成年人、活动现场和表演者时，需提前确认授权范围。</p><span class="tag">童谣</span><span class="tag">需授权</span></article><article class="card"><span class="label">SOUND 004</span><h3>村史口述</h3><p>围绕旧村巷道、宗祠、碉楼、迁徙和侨乡故事进行访谈，并保留原声、转写文本、时间码及校对记录。</p><span class="tag">口述史</span><span class="tag">待实地采集</span></article></div>
+<div class="note">资料诚信说明：以上“播放/影音入口”会跳转至第三方搜索页面，并非网页内置的龙背岭原声。正式版应优先采用项目自采、已获授权的录音或视频，并标明采集时间、地点、讲述者及授权状态。</div>
+</div></section>
+
+<section id="places" class="section"><div class="wrap">
+<div class="section-title"><h2>记忆地图</h2><span>05 / PLACE · 真实地点线索</span></div>
+<p class="muted map-intro">地图采用网页内置的示意式路线图，不依赖第三方地图图片或嵌入地图加载，因此现场演示时不会出现左侧照片空白。点位名称依据公开报道与传统村落保护规划整理；路线仅用于文化线索导览，不代表测绘坐标或实际步行导航。</p>
+<div class="map-layout map-layout-final">
+<div class="map-art" role="img" aria-label="龙背岭文化记忆示意地图，展示叶氏宗祠、碉楼、牛眠埔历史遗迹和村史馆线索">
+  <div class="map-art-head"><span>LONG BEILING · MEMORY MAP</span><strong>在村落里，寻找记忆的坐标</strong></div>
+  <svg class="memory-map-svg" viewBox="0 0 620 510" role="img" aria-label="示意路线连接四个文化地点">
+    <defs><pattern id="mapgrid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#d5d8c6" stroke-width="1"/></pattern></defs>
+    <rect width="620" height="510" rx="18" fill="#e9eadc"/><rect width="620" height="510" rx="18" fill="url(#mapgrid)"/>
+    <path d="M-20 120 C100 80 125 160 215 138 S350 70 430 120 S560 180 650 130" fill="none" stroke="#c5d2b5" stroke-width="42" stroke-linecap="round"/>
+    <path d="M-10 385 C85 340 150 400 230 350 S375 290 440 355 S560 410 640 370" fill="none" stroke="#d4c6a6" stroke-width="32" stroke-linecap="round"/>
+    <path d="M65 245 C150 220 175 290 260 270 S380 185 470 245 S520 310 560 275" fill="none" stroke="#fffaf0" stroke-width="19" stroke-linecap="round"/>
+    <path d="M65 245 C150 220 175 290 260 270 S380 185 470 245 S520 310 560 275" fill="none" stroke="#bd9e67" stroke-width="3" stroke-dasharray="7 8" stroke-linecap="round"/>
+    <g transform="translate(108 180)"><circle r="23" fill="#a44d36"/><path d="M-12 3L0-12 12 3V12H-12Z" fill="#fff4df"/><text x="0" y="47" text-anchor="middle" font-size="17" font-weight="700" fill="#33392d">叶氏宗祠</text><text x="0" y="68" text-anchor="middle" font-size="11" fill="#55594c">宗族记忆</text></g>
+    <g transform="translate(284 286)"><circle r="23" fill="#47674d"/><path d="M-10 10V-7L0-15 10-7V10Z" fill="#f7f0df"/><path d="M-4 10V0H4V10" fill="#47674d"/><text x="0" y="47" text-anchor="middle" font-size="17" font-weight="700" fill="#33392d">客家碉楼</text><text x="0" y="68" text-anchor="middle" font-size="11" fill="#55594c">侨乡建筑</text></g>
+    <g transform="translate(460 195)"><circle r="23" fill="#bc8d43"/><path d="M-12 9V-5L0-14 12-5V9Z" fill="#fff4df"/><path d="M-3 9V0H3V9" fill="#bc8d43"/><text x="0" y="47" text-anchor="middle" font-size="17" font-weight="700" fill="#33392d">村史馆线索</text><text x="0" y="68" text-anchor="middle" font-size="11" fill="#55594c">文化记忆</text></g>
+    <g transform="translate(450 390)"><circle r="23" fill="#6b6889"/><path d="M-12 8V-5L0-14 12-5V8Z" fill="#f9f1e6"/><text x="0" y="47" text-anchor="middle" font-size="17" font-weight="700" fill="#33392d">牛眠埔遗迹</text><text x="0" y="68" text-anchor="middle" font-size="11" fill="#55594c">历史遗址群</text></g>
+    <g transform="translate(65 55)"><circle r="5" fill="#47674d"/><text x="14" y="5" font-size="12" fill="#59604e">山林环境</text></g>
+    <g transform="translate(420 465)"><path d="M0 0L10-18 20 0Z" fill="#47674d"/><text x="28" y="-3" font-size="11" fill="#59604e">文化线索示意</text></g>
+  </svg>
+  <div class="map-art-foot">示意图 · 非测绘地图　/　点位详情请查看右侧来源</div>
+</div>
+<div class="place-list place-list-final">
+<article class="place place-final"><div class="place-symbol symbol-red"><span>01</span><b>祠</b></div><div class="place-copy"><h3>叶氏宗祠</h3><p>位于龙背岭旧村，是村落宗族记忆的重要建筑。公开报道介绍了宗祠的历史与村落文化背景。</p><div class="place-info"><span>历史建筑线索</span><span>开放时间：未公开核实</span></div><div class="place-actions"><a href="https://www.google.com/maps/search/?api=1&query=东莞塘厦龙背岭叶氏宗祠" target="_blank" rel="noopener">地图定位 ↗</a><a href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener">资料来源 ↗</a></div></div></article>
+<article class="place place-final"><div class="place-symbol symbol-green"><span>02</span><b>楼</b></div><div class="place-copy"><h3>叶三贵、叶俊万碉楼</h3><p>公开报道记载，两座碉楼建于民国时期，并于2012年列为东莞市不可移动文物；具体参观条件需现场确认。</p><div class="place-info"><span>不可移动文物</span><span>内部开放情况未核实</span></div><div class="place-actions"><a href="https://www.google.com/maps/search/?api=1&query=东莞塘厦龙背岭叶三贵碉楼" target="_blank" rel="noopener">地图定位 ↗</a><a href="https://webzdg.sun0769.com/web/news/content/449826" target="_blank" rel="noopener">图文报道 ↗</a></div></div></article>
+<article class="place place-final"><div class="place-symbol symbol-purple"><span>03</span><b>史</b></div><div class="place-copy"><h3>牛眠埔洪仁玕避难遗迹</h3><p>包括永培书室遗址、张彩廷纪念碑、福音堂、鼎和堂及张声和夫妇墓等文物点，分布于牛眠埔区域。</p><div class="place-info"><span>省级文物保护单位相关遗迹</span><span>请勿擅入封闭区域</span></div><div class="place-actions"><a href="https://www.google.com/maps/search/?api=1&query=东莞塘厦龙背岭牛眠埔永培书室遗址" target="_blank" rel="noopener">地图定位 ↗</a><a href="https://www.qb.gd.gov.cn/jrqx/content/post_535200.html" target="_blank" rel="noopener">遗迹介绍 ↗</a></div></div></article>
+<article class="place place-final"><div class="place-symbol symbol-gold"><span>04</span><b>馆</b></div><div class="place-copy"><h3>村史馆／广场大榕树</h3><p>公开文化报道提及村史馆及客家山歌传承相关内容。馆内现状、开放时间、是否预约和可拍摄范围仍需向社区确认。</p><div class="place-info"><span>公共文化空间线索</span><span>开放信息：待社区确认</span></div><div class="place-actions"><a href="https://www.google.com/maps/search/?api=1&query=东莞塘厦龙背岭村史馆" target="_blank" rel="noopener">地图定位 ↗</a><a href="https://dg.wenming.cn/town/202406/t20240612_8564995.shtml" target="_blank" rel="noopener">资料来源 ↗</a></div></div></article>
+</div></div>
+<div class="note">开放信息说明：目前查到的公开资料没有提供可确认的统一开放时间、预约电话或门票信息，因此不标注“免费开放”或“全天开放”。外部地图是名称搜索入口，不等同于已核实的精确坐标。正式采集时建议向龙背岭社区核对具体位置、开放安排与拍摄许可。</div>
+</div></section>
+
+<section id="stories" class="section"><div class="wrap">
+<div class="section-title"><h2>龙背岭的故事</h2><span>06 / STORIES</span></div>
+<div class="timeline">
+<div class="event"><h3>从“黎背岭”到“龙背岭”</h3><p>公开地方文化资料中保留了关于村名由来的口述解释。正式作品将进一步核对资料来源，并把地名故事做成短内容。</p></div>
+<div class="event"><h3>客家山歌的传承</h3><p>公开报道曾记录相关传承人及抢救性录制工作。这也是“声音档案”最适合切入的文化内容之一。</p></div>
+<div class="event"><h3>侨乡与寻根</h3><p>公开资料记录过海外华人后裔回到龙背岭寻找祖屋、家族资料与亲人的案例。老照片与家族记忆具有进一步数字化整理价值。</p></div>
+<div class="event"><h3>历史记忆</h3><p>相关保护规划提及太平天国运动在广东地区的历史见证，以及珠三角客家与广府文化交融等价值。</p></div>
+</div>
+</div></section>
+
+<section id="old" class="section"><div class="wrap">
+<div class="section-title"><h2>龙背岭旧影</h2><span>07 / PHOTO ARCHIVE</span></div>
+<div class="oldphoto"><a class="old-tile" href="https://webzdg.sun0769.com/web/news/content/449826" target="_blank" rel="noopener"><div class="old-photo-placeholder"><span>村落影像</span><small>公开报道配图线索</small></div><div class="old-label"><b>旧影线索 01｜龙背岭村落整体风貌</b>公开报道配图 · 东莞影像志相关报道中的村落影像线索。点击查看原文与图文背景。</div></a><a class="old-tile" href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener"><div class="old-photo-placeholder"><span>历史建筑</span><small>公开报道配图线索</small></div><div class="old-label"><b>旧影线索 02｜叶氏宗祠与历史建筑</b>公开报道配图 · 用于建筑记忆展示，不冒充村民私藏的历史老照片。点击查看原文。</div></a></div>
+<p class="muted" style="margin-top:20px">目前能核实并直接嵌入的，是公开报道中的龙背岭村落与历史建筑照片，并非已确认拍摄年代的私人老照片。真正的“龙背岭旧影”计划，后续应优先征集村民家族相册、旧屋照片与同一地点的今日影像，并注明拍摄年代、提供者及授权范围。</p>
+<div class="source-warning">图片来源：东莞市农业农村局转载东莞阳光网《塘厦镇龙背岭村：传承客家文化的中国传统村落》及东莞阳光网《东莞影像志⑧》。图片为公开报道配图，点击图片可跳转来源文章；如用于公开传播或比赛展示，请再核对原站版权与使用许可。</div>
+</div></section>
+
+<section id="sources" class="section"><div class="wrap">
+<div class="section-title"><h2>继续阅读 · 公开资料</h2><span>08 / SOURCE LINKS</span></div>
+<p class="muted" style="max-width:760px;margin-top:-12px;margin-bottom:26px">把重要内容链接回可查证的公开来源。点击卡片可跳转至相关政府部门、地方媒体或传统村落保护资料；网页中的图片也保留来源说明。</p>
+<div class="resource-grid">
+<article class="resource-card"><div class="resource-icon">🏘️</div><h3>龙背岭传统村落</h3><p>了解村庄历史、叶氏宗祠、碉楼、客家山歌与舞麒麟等文化资源。</p><a href="https://nyncj.dg.gov.cn/zl/2021xczx/gzdt/content/post_4088052.html" target="_blank" rel="noopener">东莞市农业农村局 · 阅读原文 ↗</a></article>
+<article class="resource-card"><div class="resource-icon">🎶</div><h3>客家山歌传承</h3><p>了解廖小连及塘厦客家山歌传承基地、山歌进校园等实践。</p><a href="https://dg.wenming.cn/town/202406/t20240612_8564995.shtml" target="_blank" rel="noopener">中国文明网·东莞 · 阅读原文 ↗</a></article>
+<article class="resource-card"><div class="resource-icon">🧱</div><h3>古村与侨乡记忆</h3><p>从传统建筑、历史遗迹和海外华人后裔寻根案例理解村庄的文化脉络。</p><a href="https://www.qb.gd.gov.cn/jrqx/content/post_535200.html" target="_blank" rel="noopener">广东省侨务办公室 · 阅读原文 ↗</a></article>
+<article class="resource-card"><div class="resource-icon">📜</div><h3>传统村落保护规划</h3><p>为记忆地图的空间线索、历史环境要素和后续点位核对提供参考。</p><a href="https://www.dg.gov.cn/dgtxz/attachment/0/373/373725/4462386.pdf" target="_blank" rel="noopener">龙背岭村保护发展规划 PDF ↗</a></article>
+<article class="resource-card"><div class="resource-icon">🥁</div><h3>地方习俗记录</h3><p>查看龙背岭“太公分猪肉”习俗的地方媒体报道，作为习俗档案的参考来源。</p><a href="https://webzdg.sun0769.com/web/news/content/228124?share=1" target="_blank" rel="noopener">东莞广播电视台 · 阅读原文 ↗</a></article>
+<article class="resource-card"><div class="resource-icon">🧳</div><h3>侨乡寻根案例</h3><p>公开报道中的返乡寻根经历，可为未来的家族旧影征集提供线索。</p><a href="https://www.qb.gd.gov.cn/xgbd/content/post_58088.html" target="_blank" rel="noopener">广东省侨务办公室 · 阅读原文 ↗</a></article>
+</div><div class="note">引用与使用说明：外部链接指向公开资料原文，网页图片版权及使用范围以原发布方要求为准。项目正式提交或公开传播时，建议保留来源、作者/机构、发布时间与访问日期。</div>
+</div></section>
+
+<section class="section"><div class="wrap">
+<div class="section-title"><h2>数字化保护方法</h2><span>09 / METHOD</span></div>
+<div class="flow">
+<div><b>发现</b><span>文化资料、人物、地点、旧影</span></div>
+<div><b>记录</b><span>照片、录音、文字、视频</span></div>
+<div><b>整理</b><span>AI辅助转写、分类、检索</span></div>
+<div><b>关联</b><span>地图＋人物＋故事＋声音</span></div>
+<div><b>传播</b><span>网页＋短视频＋视觉内容</span></div>
+</div>
+<div class="note">AI使用原则：AI负责提高整理效率，人负责核实事实、确认来源与文化语境。所有正式人物资料、音频、照片和家族信息须在取得授权并核验后公开。</div>
+</div></section>
+
+<section class="section"><div class="wrap">
+<div class="section-title"><h2>关于这个项目</h2><span>10 / ABOUT</span></div>
+<div class="intro"><div><p class="lead">让乡村文化从“被保存的资料”，变成“能够被看见、被听见、被理解的数字文化资产”。</p></div><div class="muted"><p>《听见龙背岭》面向龙背岭村乡村文化记忆的数字化保护与传播。项目以“人＋声＋地＋事＋旧影”为内容框架，以数字档案、信息可视化、数字地图和新媒体传播为主要载体。</p><p>本网页为比赛项目原型。部分内容来自公开资料，部分栏目属于后续待采集内容；正式发布时将进一步补充来源、授权与实地核验信息。</p></div></div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<strong>《听见龙背岭》</strong><br>
+龙背岭乡村文化记忆数字化保护与传播项目<br><br>
+资料状态：公开资料整理＋项目原型内容。人物档案采用公开案例，声音区提供第三方影音检索入口，地图加入真实地点名称及来源链接；原始录音、精确坐标、开放时间与私人历史老照片仍需进一步核实和授权。<br><br><a href="#sources" style="color:var(--accent);text-decoration:underline;text-underline-offset:4px">查看公开资料来源 ↗</a>　<a href="#archive" style="color:var(--accent);text-decoration:underline;text-underline-offset:4px">返回数字档案 ↑</a>
+</div></footer>
+
+<script>
+const data={
+"人":["ARCHIVE 01 / PEOPLE","人：记忆的讲述者","老人、村民、文化传承人、返乡青年以及与龙背岭有家族联系的人，共同构成村庄记忆的“人”。",["口述史","山歌传承人","侨乡寻根"]],
+"声":["ARCHIVE 02 / SOUND","声：留住正在远去的声音","客家山歌、客家话、童谣与老人讲述。声音档案不仅保存声音，也记录讲述者、地点与故事背景。",["客家山歌","客家话","口述记忆"]],
+"地":["ARCHIVE 03 / PLACE","地：一处地方，一段记忆","从老屋、祠堂、历史建筑到村庄地名，把空间中的文化线索串联起来。",["历史建筑","村落地名","文化遗址"]],
+"事":["ARCHIVE 04 / STORY","事：那些被讲述的往事","历史事件、民间传说、家族记忆与地方习俗，让故事有出处，也有温度。",["地方历史","民间故事","家族记忆"]],
+"旧影":["ARCHIVE 05 / PHOTO","旧影：从一张照片回到过去","让旧照片重新与今天的村庄相遇，从影像中寻找人物、建筑和家族记忆。",["历史影像","家族照片","过去×现在"]]
+};
+document.querySelectorAll("[data-key]").forEach(btn=>btn.onclick=()=>{
+document.querySelectorAll("[data-key]").forEach(b=>b.classList.remove("active"));btn.classList.add("active");
+const d=data[btn.dataset.key];document.getElementById("a-label").textContent=d[0];document.getElementById("a-title").textContent=d[1];document.getElementById("a-desc").textContent=d[2];
+document.getElementById("a-tags").innerHTML=d[3].map(x=>`<span class="tag">${x}</span>`).join("");
+});
+
+const archiveSearch=document.getElementById("archiveSearch");
+if(archiveSearch){const archiveCards=[...document.querySelectorAll("#samples .archive-card")];const archiveCount=document.getElementById("archiveCount");const updateArchive=()=>{const q=archiveSearch.value.trim().toLowerCase();let shown=0;archiveCards.forEach(card=>{const hay=(card.innerText+" "+(card.dataset.archive||"")).toLowerCase();const match=!q||hay.includes(q);card.hidden=!match;if(match)shown++;});archiveCount.textContent=`显示 ${shown} / ${archiveCards.length} 条档案`;};archiveSearch.addEventListener("input",updateArchive);updateArchive();}
+
+// 滚动进入视野时轻柔显现；减少动效偏好下自动关闭
+if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+ const revealTargets=document.querySelectorAll('.section-title,.intro,.archive-card,.card,.place,.event,.photo-tile,.resource-card,.flow,.oldphoto');
+ revealTargets.forEach(el=>el.classList.add('reveal'));
+ if('IntersectionObserver' in window){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});revealTargets.forEach(el=>observer.observe(el));}else{revealTargets.forEach(el=>el.classList.add('visible'));}
+}
+</script>
+<script>
+// 图片加载失败时显示来源提示，不让空白图片破坏页面。
+document.querySelectorAll('img').forEach(function(img){img.addEventListener('error',function(){this.style.background='#e8e4d9';this.style.minHeight='120px';this.alt=(this.alt||'图片')+'（原站图片暂不可加载，请点击来源链接查看）';});});
+// 轻量滚动渐显；减少动态效果的用户直接显示全部内容。
+if(!window.matchMedia('(prefers-reduced-motion: reduce)').matches){var nodes=document.querySelectorAll('.card,.place,.archive-card,.old-tile,.sound-link');nodes.forEach(function(n){n.classList.add('reveal');});if('IntersectionObserver' in window){var io=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);}});},{threshold:.08});nodes.forEach(function(n){io.observe(n);});}else{nodes.forEach(function(n){n.classList.add('visible');});}} 
+</script>
+</body>
+</html>
